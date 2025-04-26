@@ -1,0 +1,127 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Downloads\\Code C#\\Maps\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0860DABC-D8D2-4733-BFB4-02D791D7F5AF}|Maps\\Maps.csproj|c:\\users\\admin\\downloads\\code c#\\maps\\maps\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0860DABC-D8D2-4733-BFB4-02D791D7F5AF}|Maps\\Maps.csproj|solutionrelative:maps\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0860DABC-D8D2-4733-BFB4-02D791D7F5AF}|Maps\\Maps.csproj|C:\\Users\\admin\\Downloads\\Code C#\\Maps\\maps\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0860DABC-D8D2-4733-BFB4-02D791D7F5AF}|Maps\\Maps.csproj|solutionrelative:maps\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0860DABC-D8D2-4733-BFB4-02D791D7F5AF}|Maps\\Maps.csproj|c:\\users\\admin\\downloads\\code c#\\maps\\maps\\apiprocessing\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0860DABC-D8D2-4733-BFB4-02D791D7F5AF}|Maps\\Maps.csproj|solutionrelative:maps\\apiprocessing\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0860DABC-D8D2-4733-BFB4-02D791D7F5AF}|Maps\\Maps.csproj|c:\\users\\admin\\downloads\\code c#\\maps\\maps\\calculateprocessing\\distancecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0860DABC-D8D2-4733-BFB4-02D791D7F5AF}|Maps\\Maps.csproj|solutionrelative:maps\\calculateprocessing\\distancecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0860DABC-D8D2-4733-BFB4-02D791D7F5AF}|Maps\\Maps.csproj|c:\\users\\admin\\downloads\\code c#\\maps\\maps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0860DABC-D8D2-4733-BFB4-02D791D7F5AF}|Maps\\Maps.csproj|solutionrelative:maps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0860DABC-D8D2-4733-BFB4-02D791D7F5AF}|Maps\\Maps.csproj|c:\\users\\admin\\downloads\\code c#\\maps\\maps\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0860DABC-D8D2-4733-BFB4-02D791D7F5AF}|Maps\\Maps.csproj|solutionrelative:maps\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DistanceCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Code C#\\Maps\\Maps\\CalculateProcessing\\DistanceCalculator.cs",
+              "RelativeDocumentMoniker": "Maps\\CalculateProcessing\\DistanceCalculator.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Code C#\\Maps\\Maps\\CalculateProcessing\\DistanceCalculator.cs",
+              "RelativeToolTip": "Maps\\CalculateProcessing\\DistanceCalculator.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:42:22.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "API.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Code C#\\Maps\\Maps\\ApiProcessing\\API.cs",
+              "RelativeDocumentMoniker": "Maps\\ApiProcessing\\API.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Code C#\\Maps\\Maps\\ApiProcessing\\API.cs",
+              "RelativeToolTip": "Maps\\ApiProcessing\\API.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T05:14:21.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Code C#\\Maps\\Maps\\Form1.cs",
+              "RelativeDocumentMoniker": "Maps\\Form1.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Code C#\\Maps\\Maps\\Form1.cs*",
+              "RelativeToolTip": "Maps\\Form1.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAALUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T07:03:47.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Code C#\\Maps\\Maps\\Form1.cs",
+              "RelativeDocumentMoniker": "Maps\\Form1.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Code C#\\Maps\\Maps\\Form1.cs [Design]*",
+              "RelativeToolTip": "Maps\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T06:20:09.097Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Code C#\\Maps\\Maps\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Maps\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Code C#\\Maps\\Maps\\Form1.Designer.cs*",
+              "RelativeToolTip": "Maps\\Form1.Designer.cs*",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAewLwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T17:55:11.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Code C#\\Maps\\Maps\\Program.cs",
+              "RelativeDocumentMoniker": "Maps\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Code C#\\Maps\\Maps\\Program.cs",
+              "RelativeToolTip": "Maps\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T12:37:33.389Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
