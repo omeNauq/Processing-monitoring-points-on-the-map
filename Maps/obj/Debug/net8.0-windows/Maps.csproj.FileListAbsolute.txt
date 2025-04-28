@@ -35,3 +35,4 @@ C:\Users\admin\Downloads\Code C#\Maps\Maps\obj\Debug\net8.0-windows\Maps.genrunt
 C:\Users\admin\Downloads\Code C#\Maps\Maps\obj\Debug\net8.0-windows\ref\Maps.dll
 C:\Users\admin\Downloads\Code C#\Maps\Maps\obj\Debug\net8.0-windows\Maps.Properties.Resources.resources
 C:\Users\admin\Downloads\Code C#\Maps\Maps\bin\Debug\net8.0-windows\System.Device.Portable.dll
+C:\Users\admin\Downloads\Code C#\Maps\Maps\obj\Debug\net8.0-windows\Maps.sourcelink.json

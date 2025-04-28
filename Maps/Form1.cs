@@ -26,7 +26,7 @@ namespace Maps
         private GMapOverlay PolygonOverlay = new GMapOverlay("Polygon"); // Overlay chứa polygon
 
         private GMapOverlay searchOverlay = new GMapOverlay("Search"); // Overlay chứa marker tìm kiếm
-        
+
         private double totalDistance = 0; // Tổng khoảng cách của route
         private double totalArea = 0; // Tổng diện tích của polygon
 
@@ -122,23 +122,28 @@ namespace Maps
             }
             if (isDrawingPolygon && e.Button == MouseButtons.Right)
             {
-                PolygonOverlay.Polygons.RemoveAt(PolygonOverlay.Polygons.Count - 1);
-                pointPolygon.RemoveAt(pointPolygon.Count - 1);
-                if (pointPolygon.Count > 2)
+                if (pointPolygon.Count > 0)
                 {
-                    UpdatePolygon();
-                }
-                else if (pointPolygon.Count == 2)
-                {
-                    // Nếu chỉ còn 2 điểm, chỉ hiển thị marker mà không vẽ polygon
-                    var marker = new GMarkerGoogle(pointPolygon[0], GMarkerGoogleType.blue_pushpin);
-                    PolygonOverlay.Markers.Add(marker);
-                    ToTal_Distance.Text = "Total Area: 0 km²";
-                }
-                if (PolygonOverlay.Polygons.Count < 1)
-                {
-                    MessageBox.Show("Đã xóa hết polygon, vui lòng chọn lại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    PolygonOverlay.Markers.Clear();
+                    PolygonOverlay.Polygons.RemoveAt(PolygonOverlay.Polygons.Count - 1);
+                    pointPolygon.RemoveAt(pointPolygon.Count - 1);
+                    PolygonOverlay.Polygons.RemoveAt(PolygonOverlay.Polygons.Count - 1);
+
+                    if (pointPolygon.Count > 2)
+                    {
+                        UpdatePolygon();
+                    }
+                    else if (pointPolygon.Count == 2)
+                    {
+                        // Nếu chỉ còn 2 điểm, chỉ hiển thị marker mà không vẽ polygon
+                        var marker = new GMarkerGoogle(pointPolygon[0], GMarkerGoogleType.blue_pushpin);
+                        PolygonOverlay.Markers.Add(marker);
+                        ToTal_Distance.Text = "Total Area: 0 km²";
+                    }
+                    if (PolygonOverlay.Polygons.Count < 1)
+                    {
+                        MessageBox.Show("Đã xóa hết polygon, vui lòng chọn lại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        //PolygonOverlay.Markers.Clear();
+                    }
                 }
             }
 
@@ -274,14 +279,14 @@ namespace Maps
                 pointPolygon.Clear();
                 PolygonOverlay.Clear();
                 routesOverlay.Clear();
-                
+
                 ToTal_Distance.Text = "Total Area: 0 km²";
             }
             else
             {
                 // Xóa polygon khỏi bản đồ
                 PolygonOverlay.Clear();
-                
+
                 ToTal_Distance.Text = "Total Area: 0 km²";
             }
             gMapControl1.Update();
@@ -301,7 +306,7 @@ namespace Maps
                 PolygonOverlay.Polygons.Add(polygon);
 
                 totalArea = DistanceCalculator.CalculatePolygonArea(pointPolygon);
-                ToTal_Distance.Text = $"Total Area: {(totalArea/1e6):F2} km2";
+                ToTal_Distance.Text = $"Total Area: {(totalArea / 1e6):F2} km2";
             }
             gMapControl1.Update();
             gMapControl1.Invalidate();
@@ -383,6 +388,6 @@ namespace Maps
 
         #endregion
 
-      
+
     }
 }
